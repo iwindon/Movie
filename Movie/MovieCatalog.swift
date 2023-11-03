@@ -7,12 +7,14 @@
 
 import Foundation
 
-struct MovieCatalog {
+struct MovieCatalog: Identifiable {
     
-    var uuid: UUID
+    var id:UUID = UUID()
     var title:String
     var year:String
     var director:String
     var synopsis:String
+    var watched:Bool
+    var rating:String
     
 }
