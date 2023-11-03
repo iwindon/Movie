@@ -9,6 +9,7 @@ import Foundation
 
 struct MovieCatalog {
     
+    var uuid: UUID
     var title:String
     var year:String
     var director:String
